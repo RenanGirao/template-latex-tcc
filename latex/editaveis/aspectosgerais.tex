@@ -1,16 +1,60 @@
 \part{Aspectos Gerais}
 
 \chapter[Aspectos Gerais]{Aspectos Gerais}
+\section{Aspectos Gerais}
+Na indústria moderna, existem diversos métodos e técnicas disponíveis para desenvolver e colocar um produto no mercado. A escolha do método mais adequado depende de vários fatores, como o material utilizado na fabricação e a quantidade necessária para atender à demanda. Entre esses materiais, os termoplásticos têm se tornado cada vez mais populares devido à sua versatilidade e eficiência. De acordo com um relatório da Mordor Intelligence, espera-se que o mercado de termoplásticos apresente uma taxa de crescimento anual composta (CAGR) superior a 6% até 2028. Esse aumento é impulsionado pela crescente demanda por materiais leves na indústria automotiva, que busca melhorar a eficiência energética e oferecer maior flexibilidade de design.
 
-Estas instruções apresentam um conjunto mínimo de exigências necessárias a 
-uniformidade de apresentação do relatório de Trabalho de Conclusão de Curso 
-da FGA. Estilo, concisão e clareza ficam inteiramente sob a 
-responsabilidade do(s) aluno(s) autor(es) do relatório.
+Para a produção em larga escala de produtos feitos com termoplásticos, o processo de injeção plástica é amplamente utilizado. Esse método garante alta uniformidade das peças, além de permitir uma produção rápida e eficiente. O processo consiste em injetar o plástico, no estado líquido, em um molde que dará forma ao produto final desejado. Para isso, o molde precisa ser projetado levando em consideração diversas características do produto final, como o material escolhido, o volume de produção e os requisitos geométricos. O design do molde exige uma combinação de conhecimentos em engenharia, ciência dos materiais e uso de tecnologias avançadas, além de contemplar aspectos como material do molde, resistência térmica, propriedades do polímero, sistema de resfriamento, alimentação e ejeção.
 
-As disciplinas de Trabalho de Conclusão de Curso (TCC) 01 e Trabalho de 
-Conclusão de Curso (TCC) 02 se desenvolvem de acordo com Regulamento 
-próprio aprovado pelo Colegiado da FGA. Os alunos matriculados nessas 
-disciplinas devem estar plenamente cientes de tal Regulamento. 
+Ferramentas de simulação computacional, como o software Moldflow, têm se tornado indispensáveis no processo de desenvolvimento de moldes. Essas tecnologias permitem prever o comportamento do material durante a injeção, analisar o fluxo do polímero e identificar possíveis problemas, como deformações, linhas de solda e pontos de estresse. Com o auxílio da simulação, os projetistas podem otimizar o design do molde antes mesmo de sua fabricação, reduzindo custos, minimizando desperdícios e diminuindo o tempo necessário para ajustes posteriores.
+
+\section{Objetivos}
+
+O objetivo principal deste trabalho é projetar e desenvolver um molde para injeção plástica destinado à fabricação de corpos de prova para ensaios de tração, utilizando como base os padrões definidos pela norma ISO 527. O molde será concebido para operar em uma máquina de injeção Romi Prática 80, disponível na universidade, e fabricado para atender às demandas práticas e acadêmicas da instituição.
+
+De forma mais específica, este trabalho busca:
+
+\begin{itemize}
+    \item Estudar e compreender os fundamentos do processo de injeção plástica, com ênfase nas etapas de projeto e fabricação de moldes;
+    \item Analisar os materiais termoplásticos utilizados no processo de injeção, avaliando propriedades como resistência térmica, comportamento de fluxo e encolhimento, a fim de determinar sua adequação para a fabricação dos corpos de prova;
+    \item Utilizar ferramentas de simulação computacional, como o Moldflow e o Ansys, para otimizar o design do molde e prever o comportamento do material durante o processo de injeção;
+    \item Modelar o molde utilizando o software SolidWorks, aproveitando suas ferramentas de CAD 3D para desenvolver uma representação detalhada e funcional do projeto;
+    \item Projetar um molde funcional, considerando fatores como resistência térmica, sistema de alimentação, resfriamento e ejeção, de forma a garantir eficiência produtiva e qualidade do produto final;
+    \item Validar o molde projetado, por meio de análises teóricas e simulações, antes de sua fabricação;
+    \item Contribuir para a comunidade acadêmica, ao disponibilizar um modelo prático e replicável para o desenvolvimento de outros moldes e estudos na área de injeção plástica.
+\end{itemize}
+
+\section{O Processo de Desenvolvimento de Moldes}
+
+O desenvolvimento de moldes segue uma sequência de etapas críticas, que visam garantir que o produto final seja produzido de maneira eficiente e com alta qualidade. Essas etapas envolvem uma combinação de planejamento inicial, projeto detalhado e testes finais, como mostrado no fluxograma da Figura~\ref{fig:processo_moldes}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[keepaspectratio=true,scale=0.3]{figuras/aspectosgerais/Processo_de_criacao_de_molde.eps}
+    \caption{Processo de projetar o molde}
+    \label{processo_molde}
+\end{figure}
+
+O processo começa com o \textbf{design inicial}, no qual o projeto da peça é revisado, considerando suas especificações e requisitos funcionais. A partir dessa análise, são desenvolvidos projetos preliminares do molde, juntamente com orçamentos iniciais, que são posteriormente submetidos à aprovação.
+
+Se o projeto for aprovado, o processo avança para o \textbf{design detalhado do molde}, que inclui várias etapas principais:
+
+\begin{itemize}
+    \item \textbf{Projeto do Layout do Molde (Mold Layout Design)}: Definição da estrutura geral do molde, incluindo as posições das cavidades, canais de alimentação e sistemas de ejetores.
+    
+    \item \textbf{Design do Sistema de Alimentação (Feed System Design)}: Planejamento dos canais pelos quais o material fundido será injetado nas cavidades do molde, assegurando que o material flua uniformemente.
+    
+    \item \textbf{Design do Sistema de Resfriamento (Cooling System Design)}: Determinação da disposição dos canais de resfriamento para controlar a taxa de resfriamento da peça moldada, essencial para evitar deformações.
+    
+    \item \textbf{Design do Sistema de Ejeção (Ejector System Design)}: Planejamento dos mecanismos de ejeção que removem as peças acabadas do molde sem danificá-las.
+    
+    \item \textbf{Design Estrutural (Structural System Design)}: Avaliação da integridade estrutural do molde, garantindo que ele suporte as forças de injeção e o ciclo repetitivo de aquecimento e resfriamento.
+\end{itemize}
+
+
+
+
+ 
 
 \section{Composição e estrutura do trabalho}
 
